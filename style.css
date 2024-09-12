@@ -4,11 +4,6 @@ html, body {
   padding: 0;
 }
 
-.maincontent {
-  height: 100%;
-  width: 100%;
-}
-
 .divstyle1 {
   height: 10vw;
   background: linear-gradient(to right, #144a78 0%, #144a78 100%);
@@ -53,4 +48,14 @@ html, body {
 .naviconstyle {
   height: 4.5vw;
   width: 4.5vw;
+}
+
+.collegebg {
+  align-items: center;
+}
+
+.mainstyling {
+  position: absolute;
+  align-content: center;
+  justify-content: center;
 }
