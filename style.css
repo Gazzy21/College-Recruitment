@@ -1,12 +1,56 @@
-body {
+html, body {
   background: black;
+  margin: 0;
+  padding: 0;
+}
+
+.maincontent {
+  height: 100%;
+  width: 100%;
 }
 
 .divstyle1 {
   height: 10vw;
+  background: linear-gradient(to right, #144a78 0%, #144a78 100%);
+  display: flex;
+}
+
+.divstyle2 {
+  height: 10vw;
+  background-image: url(imgs/TCNJLogoNoBG.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  display: flex;
+  background-color: white;
+  
+}
+
+.divstyle3 {
+  height: 100%;
+  width: 100%;
   background: white;
 }
 
 .headerstyle1 {
   height: 8vw;
+  font-size: 9.5vw;
+  color: linear-gradient(to right, #b19d58 0%, #b19d58 100%);
+  vertical-align: bottom;
+  bottom: 0;
+  left: 0;
+}
+
+.headerstyle2 {
+  height: 8vw;
+  font-size: 5.25vw;
+  color: linear-gradient(to right, #b19d58 0%, #b19d58 100%);
+  position: relative;
+  bottom: 0;
+  vertical-align: bottom;
+}
+
+.naviconstyle {
+  height: 4.5vw;
+  width: 4.5vw;
 }
